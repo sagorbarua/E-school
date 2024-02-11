@@ -32,6 +32,10 @@ header{
   padding: 0 20px !important;
 }
 
+.menu ul li a:hover{
+  color: #FD511A;
+}
+
 .btn_cm{
   background-color: #21B573;
   font-family: "Roboto", sans-serif;
