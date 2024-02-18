@@ -56,6 +56,19 @@
     .t-p{
       text-align: center;
     }
+  /* top-footer-start   */
+
+  .top-footer{
+    text-align: center;
+  }
+    .tf-item p{
+      padding-right: 0;
+    }
+
+    .tf-links{
+      margin-bottom: 20px;
+    }
+  /* top-footer-end  */
 }
 
  /* Small devices (landscape phones, 576px and up) */
@@ -111,6 +124,15 @@
     text-align: center;
   }
 
+  .top-footer{
+    text-align: center;
+  }
+  .tf-item p {
+    padding: 0 60px;
+    margin-bottom: 40px;
+
+ }
+
  }
 
 /* Medium devices (tablets, 768px and up) */
@@ -152,7 +174,15 @@
   }
   /* feature-end */
 
+  .top-footer{
+    text-align: center;
+  }
+  .tf-item p {
+    padding: 0 80px ;
+    margin-bottom: 40px;
+
  }
+}
 
  /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) { 
