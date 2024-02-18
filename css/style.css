@@ -16,15 +16,11 @@ body{
 }
 
 /* header start */
-
 header{
   background-color:#F0FFF0;
   padding: 15px 0;
   
 }
-
-
-
 
 .menu ul li a{
   font-family: "Poppins", sans-serif;
@@ -67,8 +63,8 @@ header{
   background-color: #FD511A !important;
   color: white !important;
 }
-
 /* header end */
+
 
 /* banner start */
 .banner{
@@ -79,7 +75,6 @@ header{
   color: #FD511A;
   margin-bottom: 0;
 }
-
 .banner-heading{
   font-size: 48px;
   font-weight: 700;
@@ -89,16 +84,15 @@ header{
 .custom-span{
   color:#21B573;  
 }
-
 .banner-p2{
   line-height: 36px;
   margin-bottom: 15px;
 }
-
 .btn-gets{
   padding: 12px 36px;
 }
 /* banner end */
+
 
 /* features start*/
 .features{
@@ -115,7 +109,6 @@ header{
 .f-item:hover{
   box-shadow: 0px 20px 40px 0px #0000001A;
   cursor: pointer;
-
 }
 .f-img{
   width:75px;
@@ -133,6 +126,7 @@ header{
 }
 /* features end*/
 
+
 /* testimony section start  */
 .testimony{
   padding-bottom: 105px;
@@ -141,22 +135,20 @@ header{
   font-size: 36px;
   font-weight: 700;
   line-height: 54px;
- 
+
 }
 .t-p{
   line-height: 30px;
   align-items: center;
 }
-
 .t-item{
   margin-top: 40px;
 }
-
 .t-img img{
   width: 100%;
 }
-
 /* testimony section end  */
+
 
 /* top-footer-start */
 .top-footer{
@@ -187,7 +179,6 @@ header{
   display: block;
   margin-bottom: 8px;
 }
-
 /* top-footer-end */
 
 /* footer start */
