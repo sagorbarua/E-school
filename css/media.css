@@ -1,5 +1,6 @@
  /* Extra small devices (portrait phones, less than 576px) */
 @media (min-width:320px) and (max-width: 575.98px) { 
+  /* header start */
   header{
     padding: 0;
   }
@@ -12,8 +13,9 @@
   .btn_signin{
     margin-left: 4px;
   }
-    /* banner-start */
+  /* header end */
 
+    /* banner-start */
     .b-img{
       padding: 0 ;
       margin-bottom: 30px;
@@ -33,6 +35,7 @@
     }
     /* banner-end */
 
+
   /* feature-start */
   .features{
     padding: 45px 0 60px;
@@ -49,15 +52,17 @@
     line-height: 30px;
   }
   /* feature-end */
-    /* testimonial section */
+
+  /* testimonial section */
     .t-img{
       padding: 0px 60px 20px;
     }
     .t-p{
       text-align: center;
     }
-  /* top-footer-start   */
 
+
+  /* top-footer-start   */
   .top-footer{
     text-align: center;
   }
@@ -69,6 +74,17 @@
       margin-bottom: 20px;
     }
   /* top-footer-end  */
+
+  .c-left i , .c-right i{
+    margin-right: 5px;
+    font-size: 14px;
+  }
+  .c-left p , .c-right p{
+    font-size: 14px;
+  }
+  .c-item{
+    margin: 40px 0 0;
+  }
 }
 
  /* Small devices (landscape phones, 576px and up) */
@@ -104,6 +120,7 @@
       line-height: 30px;
     }
     /* banner-end */
+    
     /* feature-start */
     .features{
       padding: 45px 0 60px;
@@ -132,6 +149,9 @@
     margin-bottom: 40px;
 
  }
+ .c-item{
+  margin: 40px 0 0;
+}
 
  }
 
@@ -182,6 +202,11 @@
     margin-bottom: 40px;
 
  }
+ .c-item{
+  margin: 40px 0 0;
+}
+
+
 }
 
  /* Large devices (desktops, 992px and up) */
@@ -190,6 +215,14 @@
   .banner-p2{
     padding-right: 50px;
   }
+  .c-left i , .c-right i{
+    margin-right: 5px;
+    font-size: 14px;
+  }
+  .c-left p , .c-right p{
+    font-size: 14px;
+  }
+
 
  }
 
